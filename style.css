@@ -1,0 +1,37 @@
+body {
+  /* align-items: center;
+  justify-content: center; */
+  margin: 0px !important;
+}
+
+/* .accordion-item {
+  margin-left: 1rem !important;
+} */
+
+/* .col {
+  padding: 0px !important;
+} */
+
+.btn-pro {
+  background-color: steelblue !important;
+  color: white !important;
+}
+
+.btn-basic {
+  background-color: blueviolet !important;
+  color: white !important;
+}
+
+.btn-business {
+  background-color: yellowgreen !important;
+  color: white !important;
+}
+
+.col-border {
+  border-left: black 1px solid;
+  /* border-right: black 1px solid; */
+}
+
+.value {
+  background-color: yellowgreen;
+}
