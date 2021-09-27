@@ -13,31 +13,34 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
-    <div>
+    <div class="container main-container">
       <div class="container">
         <div class="row">
           <div class="col col-sm-3"></div>
           <div class="col col-sm-3"></div>
-          <div class="col col-sm-3 value">Best Value</div>
+          <div class="col col-sm-3 value">
+            <p><strong>Best Value</strong></p>
+          </div>
           <div class="col col-sm-3"></div>
         </div>
         <div class="row">
-          <div class="col col-sm-3"></div>
-          <div class="col col-sm-3 col-border">
-            <strong>Basic</strong>
+          <div class="col col-sm-3 main-col bb"></div>
+          <div class="col col-sm-3 rb main-col lb tb bb">
+            <p><strong>Basic</strong></p>
             <p>$29</p>
             <p>Billed Monthly</p>
             <p><button class="btn btn-basic">Buy Basic</button></p>
           </div>
-          <div class="col col-sm-3 col-border">
-            <strong>Business</strong>
+          <div class="col col-sm-3 rb main-col tb bb">
+            <p><strong>Business</strong></p>
             <p>$69</p>
             <p>Billed Monthly</p>
             <p><button class="btn btn-business">Buy Business</button></p>
           </div>
-          <div class="col col-sm-3 col-border">
-            <strong>Pro</strong>
+          <div class="col col-sm-3 rb main-col tb bb">
+            <p><strong>Pro</strong></p>
             <p>$149</p>
             <p>Billed Monthly</p>
             <p><button class="btn btn-pro">Buy Pro</button></p>
@@ -59,9 +62,9 @@
               <div class="container">
                 <div class="row">
                   <div class="col col-sm-3"><strong>General</strong></div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
                 </div>
               </div>
             </button>
@@ -75,45 +78,45 @@
               <div class="container">
                 <div class="row">
                   <div class="col col-sm-3">"Powered by" Logo</div>
-                  <div class="col col-sm-3 col-border">Always Active</div>
-                  <div class="col col-sm-3 col-border">Optional</div>
-                  <div class="col col-sm-3 col-border">Optional</div>
+                  <div class="col col-sm-3 rb lb">Always Active</div>
+                  <div class="col col-sm-3 rb">Optional</div>
+                  <div class="col col-sm-3">Optional</div>
                 </div>
                 <div class="row">
                   <div class="col col-sm-3">Number of Sites</div>
-                  <div class="col col-sm-3 col-border">1</div>
-                  <div class="col col-sm-3 col-border">5</div>
-                  <div class="col col-sm-3 col-border">15</div>
+                  <div class="col col-sm-3 rb lb">1</div>
+                  <div class="col col-sm-3 rb">5</div>
+                  <div class="col col-sm-3">15</div>
                 </div>
                 <div class="row">
                   <div class="col col-sm-3">External Migrations</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb lb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col col-sm-3">Media Manager</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb lb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col col-sm-3">Team Members</div>
-                  <div class="col col-sm-3 col-border">0</div>
-                  <div class="col col-sm-3 col-border">3</div>
-                  <div class="col col-sm-3 col-border">10</div>
+                  <div class="col col-sm-3 rb lb">0</div>
+                  <div class="col col-sm-3 rb">3</div>
+                  <div class="col col-sm-3">10</div>
                 </div>
               </div>
             </div>
@@ -137,9 +140,9 @@
                   <div class="col col-sm-3">
                     <strong>Funnel Builder</strong>
                   </div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
                 </div>
               </div>
             </button>
@@ -152,107 +155,107 @@
             <div class="accordion-body">
               <div class="container">
                 <div class="row">
-                  <div class="col col-sm-3">Number of Funnels</div>
-                  <div class="col col-sm-3 col-border">10</div>
-                  <div class="col col-sm-3 col-border">100</div>
-                  <div class="col col-sm-3 col-border">500</div>
+                  <div class="col col-sm-3 rb">Number of Funnels</div>
+                  <div class="col col-sm-3 rb">10</div>
+                  <div class="col col-sm-3 rb">100</div>
+                  <div class="col col-sm-3">500</div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">
+                  <div class="col col-sm-3 rb">
                     Number of templates groups (Number of templates x 9)
                   </div>
-                  <div class="col col-sm-3 col-border">5</div>
-                  <div class="col col-sm-3 col-border">15</div>
-                  <div class="col col-sm-3 col-border">99999</div>
+                  <div class="col col-sm-3 rb">5</div>
+                  <div class="col col-sm-3 rb">15</div>
+                  <div class="col col-sm-3">99999</div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Split testing</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#x2717;</span>
+                  <div class="col col-sm-3 rb">Split testing</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="cross">&#x2717;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Mobile optimizer</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Built-in conversion tools</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Mobile optimizer</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">HTML download</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#x2717;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Save as template</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#x2717;</span>
+                  <div class="col col-sm-3 rb">Built-in conversion tools</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Clone page</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Unique visitors</div>
-                  <div class="col col-sm-3 col-border">25,000</div>
-                  <div class="col col-sm-3 col-border">100,000</div>
-                  <div class="col col-sm-3 col-border">Unlimited</div>
+                  <div class="col col-sm-3 rb">HTML download</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="cross">&#x2717;</span>
+                  </div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Transfer funnels</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#x2717;</span>
+                  <div class="col col-sm-3 rb">Save as template</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="cross">&#x2717;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#x2717;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Clone page</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Unique visitors</div>
+                  <div class="col col-sm-3 rb">25,000</div>
+                  <div class="col col-sm-3 rb">100,000</div>
+                  <div class="col col-sm-3">Unlimited</div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Transfer funnels</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="cross">&#x2717;</span>
+                  </div>
+                  <div class="col col-sm-3 rb">
+                    <span class="cross">&#x2717;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
               </div>
@@ -277,9 +280,9 @@
                   <div class="col col-sm-3">
                     <strong>Product Builder</strong>
                   </div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
                 </div>
               </div>
             </button>
@@ -292,151 +295,151 @@
             <div class="accordion-body">
               <div class="container">
                 <div class="row">
-                  <div class="col col-sm-3">Number of Products</div>
-                  <div class="col col-sm-3 col-border">10</div>
-                  <div class="col col-sm-3 col-border">50</div>
-                  <div class="col col-sm-3 col-border">250</div>
+                  <div class="col col-sm-3 rb">Number of Products</div>
+                  <div class="col col-sm-3 rb">10</div>
+                  <div class="col col-sm-3 rb">50</div>
+                  <div class="col col-sm-3">250</div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Membership Module Products</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Membership Module Products</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Digital Products</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
                   <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Digital Products</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">
                     Instasuite Checkout (Stripe and Paypal)
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Multiple Price Points</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Coupons and Discounts</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#x2717;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Automation Actions</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#x2717;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
                   <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Multiple Price Points</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Coupons and Discounts</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="cross">&#x2717;</span>
+                  </div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Automation Actions</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="cross">&#x2717;</span>
+                  </div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">
                     Digital Product Delivery - Email
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">
+                  <div class="col col-sm-3 rb">
                     Digital Product Delivery - Redirect URL
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">
+                  <div class="col col-sm-3 rb">
                     Digital Product Delivery - Upload File
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#x2717;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="cross">&#x2717;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">
+                  <div class="col col-sm-3 rb">
                     Digital Product Delivery - ISPDN
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#x2717;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="cross">&#x2717;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Export orders to CSV</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Export orders to CSV</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
               </div>
@@ -461,9 +464,9 @@
                   <div class="col col-sm-3">
                     <strong>Membership Builder</strong>
                   </div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
                 </div>
               </div>
             </button>
@@ -476,87 +479,87 @@
             <div class="accordion-body">
               <div class="container">
                 <div class="row">
-                  <div class="col col-sm-3">In-built SMTP</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">In-built SMTP</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Number of themes</div>
-                  <div class="col col-sm-3 col-border">1</div>
-                  <div class="col col-sm-3 col-border">3</div>
-                  <div class="col col-sm-3 col-border">5</div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Number of Members</div>
-                  <div class="col col-sm-3 col-border">1,000</div>
-                  <div class="col col-sm-3 col-border">5,000</div>
-                  <div class="col col-sm-3 col-border">100,000</div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Member tags</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#x2717;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Drip-feed</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#x2717;</span>
+                  <div class="col col-sm-3 rb">Number of themes</div>
+                  <div class="col col-sm-3 rb">1</div>
+                  <div class="col col-sm-3 rb">3</div>
+                  <div class="col col-sm-3">5</div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Number of Members</div>
+                  <div class="col col-sm-3 rb">1,000</div>
+                  <div class="col col-sm-3 rb">5,000</div>
+                  <div class="col col-sm-3">100,000</div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Member tags</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="cross">&#x2717;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Member progress tracking</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Drip-feed</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="cross">&#x2717;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Quiz tracking</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Design editor</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Member progress tracking</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Quiz tracking</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Design editor</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
               </div>
@@ -578,10 +581,12 @@
             >
               <div class="container">
                 <div class="row">
-                  <div class="col col-sm-3"><strong>List Builder</strong></div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
+                  <div class="col col-sm-3">
+                    <strong>List Builder</strong>
+                  </div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
                 </div>
               </div>
             </button>
@@ -594,129 +599,129 @@
             <div class="accordion-body">
               <div class="container">
                 <div class="row">
-                  <div class="col col-sm-3">SMTP setup</div>
-                  <div class="col col-sm-3 col-border">Own</div>
-                  <div class="col col-sm-3 col-border">Own</div>
-                  <div class="col col-sm-3 col-border">Own</div>
+                  <div class="col col-sm-3 rb">SMTP setup</div>
+                  <div class="col col-sm-3 rb">Own</div>
+                  <div class="col col-sm-3 rb">Own</div>
+                  <div class="col col-sm-3">Own</div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Blacklist domain, email, IP</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Blacklist domain, email, IP</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Block role-based email</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Number of lists</div>
-                  <div class="col col-sm-3 col-border">10</div>
-                  <div class="col col-sm-3 col-border">100</div>
-                  <div class="col col-sm-3 col-border">Unlimited</div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Number of subscribers</div>
-                  <div class="col col-sm-3 col-border">1,000</div>
-                  <div class="col col-sm-3 col-border">5,000</div>
-                  <div class="col col-sm-3 col-border">100,000</div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Manual/Bulk import</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Block role-based email</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">List segmentation</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#x2717;</span>
+                  <div class="col col-sm-3 rb">Number of lists</div>
+                  <div class="col col-sm-3 rb">10</div>
+                  <div class="col col-sm-3 rb">100</div>
+                  <div class="col col-sm-3">Unlimited</div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Number of subscribers</div>
+                  <div class="col col-sm-3 rb">1,000</div>
+                  <div class="col col-sm-3 rb">5,000</div>
+                  <div class="col col-sm-3">100,000</div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Manual/Bulk import</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Automations</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#x2717;</span>
+                  <div class="col col-sm-3 rb">List segmentation</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="cross">&#x2717;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Optin forms</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Broadcasts</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Automations</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="cross">&#x2717;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Sequences</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Save email templates</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Optin forms</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Broadcasts</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Sequences</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Save email templates</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
               </div>
@@ -738,10 +743,12 @@
             >
               <div class="container">
                 <div class="row">
-                  <div class="col col-sm-3"><strong>Blog Builder</strong></div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
+                  <div class="col col-sm-3">
+                    <strong>Blog Builder</strong>
+                  </div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
                 </div>
               </div>
             </button>
@@ -754,63 +761,63 @@
             <div class="accordion-body">
               <div class="container">
                 <div class="row">
-                  <div class="col col-sm-3">Widgets</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Widgets</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Menu</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Theme customization</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Menu</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Number of themes</div>
-                  <div class="col col-sm-3 col-border">1</div>
-                  <div class="col col-sm-3 col-border">3</div>
-                  <div class="col col-sm-3 col-border">3</div>
+                  <div class="col col-sm-3 rb">Theme customization</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Number of posts</div>
-                  <div class="col col-sm-3 col-border">Unlimited</div>
-                  <div class="col col-sm-3 col-border">Unlimited</div>
-                  <div class="col col-sm-3 col-border">Unlimited</div>
+                  <div class="col col-sm-3 rb">Number of themes</div>
+                  <div class="col col-sm-3 rb">1</div>
+                  <div class="col col-sm-3 rb">3</div>
+                  <div class="col col-sm-3">3</div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Post categories</div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Number of posts</div>
+                  <div class="col col-sm-3 rb">Unlimited</div>
+                  <div class="col col-sm-3 rb">Unlimited</div>
+                  <div class="col col-sm-3">Unlimited</div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Post categories</div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
               </div>
@@ -835,9 +842,9 @@
                   <div class="col col-sm-3">
                     <strong>Affiliate Center</strong>
                   </div>
-                  <div class="col col-sm-3">No</div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
+                  <div class="col col-sm-3 info-col">No</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
                 </div>
               </div>
             </button>
@@ -850,55 +857,55 @@
             <div class="accordion-body">
               <div class="container">
                 <div class="row">
-                  <div class="col col-sm-3">In-built SMTP</div>
-                  <div class="col col-sm-3 col-border"></div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">In-built SMTP</div>
+                  <div class="col col-sm-3 rb"></div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Promotion tools</div>
-                  <div class="col col-sm-3 col-border"></div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Manage commissions</div>
-                  <div class="col col-sm-3 col-border"></div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Promotion tools</div>
+                  <div class="col col-sm-3 rb"></div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Number of affiliates</div>
-                  <div class="col col-sm-3 col-border"></div>
-                  <div class="col col-sm-3 col-border">1000</div>
-                  <div class="col col-sm-3 col-border">5000</div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Number of themes</div>
-                  <div class="col col-sm-3 col-border"></div>
-                  <div class="col col-sm-3 col-border">1</div>
-                  <div class="col col-sm-3 col-border">1</div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Theme customization</div>
-                  <div class="col col-sm-3 col-border"></div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">Manage commissions</div>
+                  <div class="col col-sm-3 rb"></div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Number of affiliates</div>
+                  <div class="col col-sm-3 rb"></div>
+                  <div class="col col-sm-3 rb">1000</div>
+                  <div class="col col-sm-3">5000</div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Number of themes</div>
+                  <div class="col col-sm-3 rb"></div>
+                  <div class="col col-sm-3 rb">1</div>
+                  <div class="col col-sm-3">1</div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Theme customization</div>
+                  <div class="col col-sm-3 rb"></div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
               </div>
@@ -920,10 +927,12 @@
             >
               <div class="container">
                 <div class="row">
-                  <div class="col col-sm-3"><strong>Support Desk</strong></div>
-                  <div class="col col-sm-3">No</div>
-                  <div class="col col-sm-3">Yes</div>
-                  <div class="col col-sm-3">Yes</div>
+                  <div class="col col-sm-3">
+                    <strong>Support Desk</strong>
+                  </div>
+                  <div class="col col-sm-3 info-col">No</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
+                  <div class="col col-sm-3 info-col">Yes</div>
                 </div>
               </div>
             </button>
@@ -936,42 +945,42 @@
             <div class="accordion-body">
               <div class="container">
                 <div class="row">
-                  <div class="col col-sm-3">Number of staff</div>
-                  <div class="col col-sm-3 col-border"></div>
-                  <div class="col col-sm-3 col-border">3</div>
-                  <div class="col col-sm-3 col-border">10</div>
+                  <div class="col col-sm-3 rb">Number of staff</div>
+                  <div class="col col-sm-3 rb"></div>
+                  <div class="col col-sm-3 rb">3</div>
+                  <div class="col col-sm-3">10</div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">In-built SMTP</div>
-                  <div class="col col-sm-3 col-border"></div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3 rb">In-built SMTP</div>
+                  <div class="col col-sm-3 rb"></div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
                   </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Number of canned responses</div>
-                  <div class="col col-sm-3 col-border"></div>
-                  <div class="col col-sm-3 col-border">20</div>
-                  <div class="col col-sm-3 col-border">100</div>
-                </div>
-                <div class="row">
-                  <div class="col col-sm-3">Knowledgebase</div>
-                  <div class="col col-sm-3 col-border"></div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
-                  </div>
-                  <div class="col col-sm-3 col-border">
-                    <span>&#10003;</span>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-sm-3">Number of themes</div>
-                  <div class="col col-sm-3 col-border"></div>
-                  <div class="col col-sm-3 col-border">1</div>
-                  <div class="col col-sm-3 col-border">1</div>
+                  <div class="col col-sm-3 rb">Number of canned responses</div>
+                  <div class="col col-sm-3 rb"></div>
+                  <div class="col col-sm-3 rb">20</div>
+                  <div class="col col-sm-3">100</div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Knowledgebase</div>
+                  <div class="col col-sm-3 rb"></div>
+                  <div class="col col-sm-3 rb">
+                    <span class="check">&#10003;</span>
+                  </div>
+                  <div class="col col-sm-3">
+                    <span class="check">&#10003;</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-sm-3 rb">Number of themes</div>
+                  <div class="col col-sm-3 rb"></div>
+                  <div class="col col-sm-3 rb">1</div>
+                  <div class="col col-sm-3">1</div>
                 </div>
               </div>
             </div>
@@ -982,13 +991,13 @@
       <div class="container">
         <div class="row">
           <div class="col col-sm-3"></div>
-          <div class="col col-sm-3 col-border">
+          <div class="col col-sm-3 rb bottom-btn lb bb">
             <button class="btn btn-basic">Buy Basic</button>
           </div>
-          <div class="col col-sm-3 col-border">
+          <div class="col col-sm-3 rb bottom-btn bb">
             <button class="btn btn-business">Buy Business</button>
           </div>
-          <div class="col col-sm-3 col-border">
+          <div class="col col-sm-3 rb bottom-btn bb">
             <button class="btn btn-pro">Buy Pro</button>
           </div>
         </div>

@@ -1,16 +1,20 @@
-body {
-  /* align-items: center;
-  justify-content: center; */
-  margin: 0px !important;
+.main-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top: none;
 }
 
-/* .accordion-item {
-  margin-left: 1rem !important;
-} */
+.main-col {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
 
-/* .col {
-  padding: 0px !important;
-} */
+.bottom-btn {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  text-align: center;
+}
 
 .btn-pro {
   background-color: steelblue !important;
@@ -27,11 +31,73 @@ body {
   color: white !important;
 }
 
-.col-border {
-  border-left: black 1px solid;
-  /* border-right: black 1px solid; */
+.rb {
+  border-right: 1px solid lightgray;
+}
+
+.lb {
+  border-left: 1px solid lightgray;
+}
+
+.tb {
+  border-top: 1px solid lightgray;
+}
+
+.bb {
+  border-bottom: 1px solid lightgray;
 }
 
 .value {
   background-color: yellowgreen;
+}
+
+.accordion {
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-body {
+  padding: 0px !important;
+}
+
+.info-col {
+  text-align: center;
+}
+
+.accordion-button {
+  color: black !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.check {
+  color: green;
+  font-size: 1.25rem;
+}
+
+.cross {
+  color: red;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  * {
+    letter-spacing: 0.01rem !important;
+    font-size: 0.8rem !important;
+    word-wrap: break-word !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .col {
+    padding: 0px !important;
+    text-align: center;
+  }
 }
